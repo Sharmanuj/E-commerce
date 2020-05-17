@@ -125,8 +125,8 @@ USE_TZ = True
 
 # stripe setting
 
-STRIPE_PUBLIC_KEY = 'pk_test_YjS2ZmKyHajHp8sUa1gYZbZm000eQEDnm4'
-STRIPE_SECRET_KEY = 'sk_test_UoOY3kkEJMBzUH56pHaTT0ZL008caOC5PH'
+STRIPE_PUBLIC_KEY = '' # add stripe public key
+STRIPE_SECRET_KEY = '' # add stripe secret key
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
@@ -155,7 +155,7 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 # email setting 
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'abcdexample123@gmail.com'
+EMAIL_HOST_USER = 'a@gmail.com'
 EMAIL_HOST_PASSWORD = 'qwerty@123'
 ACCOUNT_EMAIL_VERIFICATION = 'none'
 ACCOUNT_EMAIL_REQUIRED = True
